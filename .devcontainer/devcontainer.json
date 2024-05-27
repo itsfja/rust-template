@@ -9,13 +9,13 @@
 			"extensions": [
 				"rust-lang.rust-analyzer",
 				"vadimcn.vscode-lldb",
-				"crates",
-				"Error Lens",
-				"Even Better TOML",
-				"Github Codespaces",
+				"serayuzgur.crates",
+				"usernamehw.errorlens",
+				"tamasfe.even-better-toml",
+				"GitHub.codespaces",
 				"GitHub.copilot",
-				"GitHub Copilot Chat",
-				"GitLens - Git Supercharged"
+				"GitHub.copilot-chat",
+				"eamodio.gitlens"
 			]
 		}
 	},
