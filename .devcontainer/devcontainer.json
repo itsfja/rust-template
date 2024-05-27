@@ -7,13 +7,13 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"rust-analyzer",
-				"Code-LLDB",
+				"rust-lang.rust-analyzer",
+				"vadimcn.vscode-lldb",
 				"crates",
 				"Error Lens",
 				"Even Better TOML",
 				"Github Codespaces",
-				"Github copilot",
+				"GitHub.copilot",
 				"GitHub Copilot Chat",
 				"GitLens - Git Supercharged"
 			]
