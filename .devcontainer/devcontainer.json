@@ -3,10 +3,17 @@
 {
 	"name": "Rust",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/rust:0-1-bullseye",
+	//"image": "mcr.microsoft.com/devcontainers/rust:0-1-bullseye",
+	"build":{
+		"dockerfile": "Dockerfile",
+		"context": ".."
+		},
+		
+
 	"customizations": {
 		"vscode": {
 			"extensions": [
+				"ms-azuretools.vscode-docker",
 				"rust-lang.rust-analyzer",
 				"vadimcn.vscode-lldb",
 				"serayuzgur.crates",
@@ -16,7 +23,10 @@
 				"GitHub.copilot",
 				"GitHub.copilot-chat",
 				"eamodio.gitlens"
-			]
+			],
+			"settings": {
+				"rust-analyzer.cargo.autoreload": true
+			}
 		}
 	},
 
