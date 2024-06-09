@@ -24,3 +24,12 @@ RUN cargo build
 
 # Set the default command to run the built executable
 CMD ["cargo", "run"]
+
+# Install jupyter
+
+RUN cargo install --locked evcxr_jupyter
+RUN vcxr_jupyter --install
+
+# Install rust source
+
+RUN rustup component add rust-src
